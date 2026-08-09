@@ -1,0 +1,52 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "zacharticulatev",
+  "description": "Claude Code plugins by Zachary W. — web design, SEO, and project context tooling. Each plugin lives in its own repository and installs independently.",
+  "owner": {
+    "name": "Zachary W.",
+    "url": "https://github.com/ZachArticulateV"
+  },
+  "plugins": [
+    {
+      "name": "designer-pro-and-seo",
+      "source": {
+        "source": "github",
+        "repo": "ZachArticulateV/designer-pro-and-seo"
+      },
+      "description": "Web design + SEO + build-workflow skills: design-system generation and on-brand page rendering, design tokens, build briefs, pre-delivery QA, portable-HTML porting for any CMS, and a full SEO suite covering technical, schema, sitemap, content, GEO, hreflang, drift, local, and e-commerce.",
+      "homepage": "https://github.com/ZachArticulateV/designer-pro-and-seo",
+      "license": "MIT",
+      "category": "design",
+      "keywords": [
+        "seo",
+        "design",
+        "web",
+        "ui-ux",
+        "accessibility",
+        "cro",
+        "design-system",
+        "qa"
+      ]
+    },
+    {
+      "name": "project-memory",
+      "source": {
+        "source": "github",
+        "repo": "ZachArticulateV/project-memory"
+      },
+      "description": "A version-controlled project context architecture. Keeps project memory accurate, minimal, retrievable, and evidence-backed across fresh sessions, context resets, branches, and worktrees. Six modes, a deterministic Node core, two lightweight hooks, a path-scoped writing rule, and an audit that runs on an external model so memory is never graded by the context that wrote it.",
+      "homepage": "https://github.com/ZachArticulateV/project-memory",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "memory",
+        "context-engineering",
+        "project-context",
+        "handoff",
+        "session-continuity",
+        "audit",
+        "worktrees"
+      ]
+    }
+  ]
+}
