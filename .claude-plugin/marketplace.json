@@ -31,8 +31,8 @@
     {
       "name": "project-memory",
       "source": {
-        "source": "github",
-        "repo": "ZachArticulateV/project-memory"
+        "source": "url",
+        "url": "https://github.com/ZachArticulateV/project-memory.git"
       },
       "description": "A version-controlled project context architecture. Keeps project memory accurate, minimal, retrievable, and evidence-backed across fresh sessions, context resets, branches, and worktrees. Six modes, a deterministic Node core, two lightweight hooks, a path-scoped writing rule, and an audit that runs on an external model so memory is never graded by the context that wrote it.",
       "homepage": "https://github.com/ZachArticulateV/project-memory",
