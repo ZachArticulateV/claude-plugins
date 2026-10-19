@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "zacharticulatev",
-  "description": "Claude Code plugins by Zachary W. — web design, SEO, and project context tooling. Each plugin lives in its own repository and installs independently.",
+  "description": "Claude Code plugins by Zachary W. — web design, SEO, and project memory and engineering tooling. Each plugin lives in its own repository and installs independently.",
   "owner": {
     "name": "Zachary W.",
     "url": "https://github.com/ZachArticulateV"
@@ -29,14 +29,14 @@
       ]
     },
     {
-      "name": "project-memory",
+      "name": "compound-memory",
       "source": {
         "source": "url",
         "url": "https://github.com/ZachArticulateV/project-memory.git",
-        "ref": "v1.0.0",
-        "sha": "47f5edec60f4f751bcbddfa763fbe0d2d451a7f2"
+        "ref": "v2.0.0",
+        "sha": "b2419f689a90d40b8572f97778e739412758693a"
       },
-      "description": "A version-controlled project context architecture. Keeps project memory accurate, minimal, retrievable, and evidence-backed across fresh sessions, context resets, branches, and worktrees. Six modes, a deterministic Node core, two lightweight hooks, a path-scoped writing rule, and an audit that runs on an external model so memory is never graded by the context that wrote it.",
+      "description": "Memory, planning, building, review, verification, shipping, and learning for coding agents. Twelve skills that each work alone and hand work to one another through files in the repository: project-memory (keeps a project's memory accurate and evidence-backed across sessions, branches, and worktrees), plan, prototype, build, debug, review, verify, ship, autopilot, learn, write, and catch-up. Deterministic Node scripts check what must be exact, and an independent auditor runs on an external model.",
       "homepage": "https://github.com/ZachArticulateV/project-memory",
       "license": "MIT",
       "category": "productivity",
@@ -45,11 +45,14 @@
         "context-engineering",
         "project-context",
         "handoff",
-        "session-continuity",
-        "audit",
+        "planning",
+        "code-review",
+        "verification",
+        "debugging",
+        "autonomous",
         "worktrees"
       ],
-      "version": "1.0.0"
+      "version": "2.0.0"
     }
   ]
 }
