@@ -17,7 +17,7 @@ install only the plugins you want.
 | Plugin | What it does | Repository |
 | --- | --- | --- |
 | `designer-pro-and-seo` | Web design, SEO, and build-workflow skills: design systems, on-brand page rendering, design tokens, pre-delivery QA, portable-HTML porting, and a full SEO suite. | [designer-pro-and-seo](https://github.com/ZachArticulateV/designer-pro-and-seo) |
-| `compound-memory` | Project memory plus engineering skills: a fresh Claude session resumes your project correctly, and plans, builds, debugs, reviews, verifies, and ships work with evidence. Formerly `project-memory`. | [project-memory](https://github.com/ZachArticulateV/project-memory) |
+| `compound-memory` | Project memory plus engineering skills: a fresh Claude session resumes your project correctly, and plans, builds, debugs, reviews, verifies, and ships work with evidence. Formerly `project-memory`. | [compound-memory](https://github.com/ZachArticulateV/compound-memory) |
 
 ## Install one
 
