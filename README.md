@@ -17,12 +17,12 @@ install only the plugins you want.
 | Plugin | What it does | Repository |
 | --- | --- | --- |
 | `designer-pro-and-seo` | Web design, SEO, and build-workflow skills: design systems, on-brand page rendering, design tokens, pre-delivery QA, portable-HTML porting, and a full SEO suite. | [designer-pro-and-seo](https://github.com/ZachArticulateV/designer-pro-and-seo) |
-| `project-memory` | A version-controlled project context architecture, so a fresh Claude session can resume your project correctly without your old conversations. | [project-memory](https://github.com/ZachArticulateV/project-memory) |
+| `compound-memory` | Project memory plus engineering skills: a fresh Claude session resumes your project correctly, and plans, builds, debugs, reviews, verifies, and ships work with evidence. Formerly `project-memory`. | [project-memory](https://github.com/ZachArticulateV/project-memory) |
 
 ## Install one
 
 ```bash
-/plugin install project-memory@zacharticulatev
+/plugin install compound-memory@zacharticulatev
 ```
 
 ```bash
@@ -32,6 +32,11 @@ install only the plugins you want.
 Install either, both, or neither. They are independent.
 
 ## Updating
+
+If you installed `project-memory`, it is now `compound-memory`. Run
+`/plugin uninstall project-memory@zacharticulatev`, then install
+`compound-memory@zacharticulatev`. Your `memory/` trees are untouched.
+
 
 ```bash
 /plugin marketplace update zacharticulatev
