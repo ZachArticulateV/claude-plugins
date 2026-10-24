@@ -32,12 +32,12 @@
       "name": "compound-memory",
       "source": {
         "source": "url",
-        "url": "https://github.com/ZachArticulateV/project-memory.git",
+        "url": "https://github.com/ZachArticulateV/compound-memory.git",
         "ref": "v2.0.0",
         "sha": "b2419f689a90d40b8572f97778e739412758693a"
       },
       "description": "Memory, planning, building, review, verification, shipping, and learning for coding agents. Twelve skills that each work alone and hand work to one another through files in the repository: project-memory (keeps a project's memory accurate and evidence-backed across sessions, branches, and worktrees), plan, prototype, build, debug, review, verify, ship, autopilot, learn, write, and catch-up. Deterministic Node scripts check what must be exact, and an independent auditor runs on an external model.",
-      "homepage": "https://github.com/ZachArticulateV/project-memory",
+      "homepage": "https://github.com/ZachArticulateV/compound-memory",
       "license": "MIT",
       "category": "productivity",
       "keywords": [
