@@ -33,6 +33,25 @@ Install either, both, or neither. They are independent.
 
 ## Updating
 
+Compound Memory now follows the plugin repository's `main` branch in both
+catalogs. The old `v2.0.0` and commit pin are removed. The plugin's own manifest
+is the single version source. Each published plugin update must change that
+version; otherwise a host can keep its cached copy even after fetching main.
+
+For Claude Code, open `/plugin`, select **Marketplaces**, select
+**zacharticulatev**, then **Enable auto-update**. **Update marketplace** updates
+the installed plugins from this catalog. A new session loads the updated copy.
+
+For Codex, the native catalog is `.agents/plugins/marketplace.json`. Register
+`ZachArticulateV/claude-plugins`, then install `compound-memory@zacharticulatev`.
+Configured Git marketplaces can be refreshed with the host's marketplace
+upgrade operation. Restart the desktop app after an update if the current
+chat still lists old skills. Adding a marketplace alone does not install it.
+
+The Claude catalog still contains the separate designer plugin. The Codex
+catalog currently exposes only Compound Memory; it does not change any other
+installed plugin.
+
 If you installed `project-memory`, it is now `compound-memory`. Run
 `/plugin uninstall project-memory@zacharticulatev`, then install
 `compound-memory@zacharticulatev`. Your `memory/` trees are untouched.
