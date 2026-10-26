@@ -1,0 +1,21 @@
+{
+  "name": "zacharticulatev",
+  "interface": {
+    "displayName": "ZachArticulateV"
+  },
+  "plugins": [
+    {
+      "name": "compound-memory",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ZachArticulateV/compound-memory.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
